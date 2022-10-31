@@ -9,7 +9,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div>
+        <div aria-busy="False">
+            <h1>保單電訪紀錄</h1>
+            紀錄編號<asp:TextBox ID="tb_Num" runat="server"></asp:TextBox><br />
+            聯絡方式<asp:RadioButtonList ID="rbl_phone" runat="server"></asp:RadioButtonList>
         </div>
     </form>
 </body>

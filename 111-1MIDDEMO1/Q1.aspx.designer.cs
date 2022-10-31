@@ -69,13 +69,13 @@ namespace _111_1MIDDEMO1
         protected global::System.Web.UI.WebControls.TextBox tb_Account;
 
         /// <summary>
-        /// tb_Email 控制項。
+        /// tb_phone 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tb_Email;
+        protected global::System.Web.UI.WebControls.TextBox tb_phone;
 
         /// <summary>
         /// btn_Submit 控制項。

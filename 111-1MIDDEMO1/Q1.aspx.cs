@@ -36,9 +36,9 @@ namespace _111_1MIDDEMO1 {
         {
             pl_Msg.Visible=true;
             lb_Msg.Text =lb_Type.Text+"<br />"+tb_Account.Text+"先生小姐，已完成掛號。"+"<br />";
-            if (tb_Email.Text!="") 
+            if (tb_phone.Text!="") 
             {
-                lb_Msg.Text +="已寄信至信箱"+tb_Email.Text+"<br />";
+                lb_Msg.Text +="連絡電話為041111111"+tb_phone.Text+"<br />";
             }
         }
     }
